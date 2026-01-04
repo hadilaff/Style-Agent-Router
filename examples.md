@@ -91,7 +91,7 @@ NOTE: In "system_prompt" we are referencing templates by number to keep the exam
   "query": "What are the top-rated restaurants in New York City right now?",
   "routing": {
     "thinking": false,
-    "web": false,
+    "web": true,
     "system_prompt": "Template 3: Non-Thinking + Web"
   },
   "assistant_response": "I don't have access to current restaurant ratings and reviews as they change frequently. For the most up-to-date information on top-rated restaurants in New York City, I recommend checking:\n\n- Michelin Guide (for starred restaurants)\n- The New York Times restaurant reviews\n- Zagat guide\n- OpenTable or Resy (for current availability and reviews)\n- Yelp or Google Reviews (for customer ratings)\n\nThese sources provide regularly updated ratings and reviews based on professional critics and diner feedback. Restaurant rankings can change frequently due to new openings, chef changes, or updated reviews, so checking these current sources will give you the most accurate information.\n\nWould you like me to provide information about any specific type of cuisine or dining experience in NYC that I can help with based on my general knowledge?"

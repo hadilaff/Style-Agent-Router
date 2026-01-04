@@ -4,13 +4,14 @@ This project designs a routing mechanism that classifies user queries along two 
 2. Web vs No-Web: Whether the query requires current information from the web
 
 ### Project Structure
- 
+```text
 chatgpt-style-agent-router/
 ├── README.md
 ├── routing_logic.md
 ├── system_prompts.md
 ├── examples.md
-└── (optional) router.py 
+└── (optional) router.py
+```
 
 ## Architecture
 
@@ -21,7 +22,7 @@ The system follows a clear architectural flow:
 3. **System Prompt Selection**: The appropriate template is selected based on routing
 4. **Response Generation**: The assistant generates a response using the selected prompt
 
-For detailed architectural diagrams, see the diagram in `routing_logic.md`.
+![Architecture](images/rchitecture.png)
 
 ## Routing Logic
 
@@ -31,6 +32,7 @@ The routing decision process follows these steps:
 2. **Thinking Classification**: Determining if multi-step reasoning is required
 3. **Web Classification**: Determining if current information is needed
 4. **Special Case Handling**: Addressing safety, capability, and ambiguity issues
+For more details, see `routing_demo.md`
 
 ## System Prompts
 
@@ -40,6 +42,7 @@ The project includes four system prompt templates, each designed for a specific 
 2. **Template 2**: Thinking + No-Web
 3. **Template 3**: Non-Thinking + Web
 4. **Template 4**: Non-Thinking + No-Web
+For detailed instructions on each template, see `system_prompts.md`
 
 ## Examples
 
