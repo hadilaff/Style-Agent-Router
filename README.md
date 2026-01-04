@@ -22,7 +22,7 @@ The system follows a clear architectural flow:
 3. **System Prompt Selection**: The appropriate template is selected based on routing
 4. **Response Generation**: The assistant generates a response using the selected prompt
 
-![Architecture](images/rchitecture.png)
+![Architecture](images/architecture.png)
 
 ## Routing Logic
 
