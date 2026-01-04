@@ -1,5 +1,5 @@
 ## Routing Decision Process
-This document outlines the routing logic for our AI chatbot system
+This document outlines the routing logic for our AI chatbot system.
 The router classifies each user query along two dimensions:
 
 1. Thinking vs Non-Thinking
@@ -146,4 +146,4 @@ assistant explicitly acknowledges its limitations and suggests safe alternatives
 
 The following diagram illustrates the routing decision flow:
 
-![Routing decision flow](images/Routing_Decision_Flow.png)
+![Routing decision flow](images/routing_decision_flow.png)

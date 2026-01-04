@@ -2,14 +2,22 @@ Let's create a comprehensive set of examples that demonstrate our routing system
 
 NOTE: In "system_prompt" we are referencing templates by number to keep the examples file clean and it is much more efficient and organized.
 
+
+
 ### Example1: 
-Query: "Why does photosynthesis occur?" 
+
+```json
 {
-  "thinking": true,
-  "web": false,
-  "system_prompt": "Template 2: Thinking + No-Web",
+  "example": "Example 1",
+  "query": "Why does photosynthesis occur?",
+  "routing": {
+    "thinking": true,
+    "web": false,
+    "system_prompt": "Template 2: Thinking + No-Web"
+  },
   "assistant_response": "# Why Photosynthesis Occurs\n\n## The Fundamental Purpose\n\nPhotosynthesis occurs primarily to convert light energy into chemical energy that organisms can use. This process is essential for life on Earth for several key reasons:\n\n## Energy Conversion\n\n1. **Light to Chemical Energy**: Plants capture sunlight and convert it into glucose (sugar), which serves as stored energy\n2. **ATP Production**: The process generates ATP (adenosine triphosphate), the energy currency of cells\n3. **Carbon Fixation**: It converts inorganic carbon dioxide (CO₂) into organic compounds\n\n## Biological Imperatives\n\n1. **Growth and Development**: The energy produced fuels plant growth, reproduction, and maintenance\n2. **Survival Adaptation**: Photosynthesis evolved as an efficient way to harness abundant solar energy\n3. **Competitive Advantage**: Organisms that could photosynthesize gained access to a virtually unlimited energy source\n\n## Ecological Significance\n\n1. **Oxygen Production**: Photosynthesis releases oxygen as a byproduct, enabling aerobic life\n2. **Food Chain Foundation**: Photosynthetic organisms form the base of most ecosystems\n3. **Carbon Cycle Regulation**: It removes CO₂ from the atmosphere, helping regulate Earth's climate\n\n## The Chemical Logic\n\nAt the molecular level, photosynthesis occurs because:\n- Chlorophyll molecules are uniquely suited to absorb light energy\n- The resulting excited electrons can drive chemical reactions\n- CO₂ and water are readily available raw materials\n- The resulting glucose is a stable, energy-rich compound\n\n## Evolutionary Perspective\n\nPhotosynthesis likely evolved because early Earth had abundant sunlight, water, and CO₂ but limited organic energy sources. Organisms that developed this capability gained a significant survival advantage, leading to the proliferation of photosynthetic life.\n\nThe process continues today because it remains the most efficient way to convert solar energy into biologically useful forms on a global scale."
 }
+```
 ### Example2:
 Query: "What is the last version of python?" 
 {
